@@ -77,6 +77,8 @@ public class Poker {
 
     }
     public String getDeck(){
+        if (cards.size() < 5) return "";
+
         StringBuilder deck = new StringBuilder();
         for (int i = 0; i < 5; i++)
             deck.append(getCard());
