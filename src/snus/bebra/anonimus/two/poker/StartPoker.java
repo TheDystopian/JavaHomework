@@ -15,16 +15,8 @@ public class StartPoker {
 
         int players = input.nextInt();
 
-        for (int i = 0; i < players; i++){
-            for (int j = 0; j < 5; j++)
-                System.out.print(poker.getCard() + ' ');
-            System.out.println();
-        }
-
-
-
-
-
+        for (int i = 0; i < players; i++)
+            System.out.println(poker.getDeck());
     }
 
 

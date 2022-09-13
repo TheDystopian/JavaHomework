@@ -76,13 +76,10 @@ public class Poker {
         return card;
 
     }
-
-
-
-
-
-
-
-
-
+    public String getDeck(){
+        StringBuilder deck = new StringBuilder();
+        for (int i = 0; i < 5; i++)
+            deck.append(getCard());
+        return deck.toString();
+    }
 }
