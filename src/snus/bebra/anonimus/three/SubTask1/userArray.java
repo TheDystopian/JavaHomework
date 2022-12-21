@@ -34,10 +34,5 @@ public class userArray {
 
         for (int i: nEvenArr)
             System.out.print(i + " ");
-
-
-
-
-
     }
 }

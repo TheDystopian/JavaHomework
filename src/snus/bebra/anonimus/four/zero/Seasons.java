@@ -3,8 +3,8 @@ package snus.bebra.anonimus.four.zero;
 public enum Seasons {
     WINTER("Зима", "Холодное", -10),
     SPRING("Весна", "Теплое", 10),
-    SUMMER("Лето", "Жаркое", 10),
-    AUTUMN("Осень", "Теплое", 30);
+    SUMMER("Лето", "Жаркое", 30),
+    AUTUMN("Осень", "Теплое", 10);
 
     private final String name;
     private final String description;
